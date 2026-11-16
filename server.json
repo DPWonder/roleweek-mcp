@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.roleweek/jobs",
+  "title": "RoleWeek",
+  "description": "Search developer jobs posted in the last 7 days in the US and Canada, with posted pay. No sign-in.",
+  "version": "1.1.1",
+  "websiteUrl": "https://roleweek.com/mcp/",
+  "icons": [
+    {"src": "https://roleweek.com/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"]},
+    {"src": "https://roleweek.com/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"]}
+  ],
+  "remotes": [
+    {"type": "streamable-http", "url": "https://roleweek.com/api/mcp?src=mcp-registry"}
+  ]
+}
